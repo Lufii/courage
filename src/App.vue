@@ -49,7 +49,7 @@ export default {
         this.something = stronkQuotes[bamboozle%10+5];
         console.log(bamboozle%10+6);
       }
-      else if (value = 'Productivity'){
+      else if (value == 'Productivity'){
         this.something = stronkQuotes[bamboozle%5];
         console.log(bamboozle%6);
       }
